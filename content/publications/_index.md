@@ -6,8 +6,8 @@ sections:
   - block: markdown
     content:
       title: 'Highlights'
-      subtitle: 'Last updated: October 2, 2025'
       text: |
+        ##### Last updated: March 8, 2026
     design:
       columns: '1'
       spacing:
@@ -21,6 +21,8 @@ sections:
         2. **Minwoo Kim**, Sangil Han, Jeongyoun Ahn and **Sungkyu Jung** (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in *Journal of Computational and Graphical Statistics*.
     design:
       columns: '1'
+      spacing:
+        padding: ['60px', '5%', '60px', '5%']
 
   - block: markdown
     content:
@@ -29,9 +31,10 @@ sections:
         1. Dongsun Yoon and **Sungkyu Jung** (2025). “Adaptive Reference-Guided Estimation of Principal Component Subspace in High Dimensions,” *Stat* 14:e70081.
         2. Sangil Han, Kyoowon Kim and **Sungkyu Jung** (2025). “Subspace Recovery in Winsorized PCA: Insights into Accuracy and Robustness,” *Proceedings of AISTATS 2025*, PMLR 258:3061-3069.
         3. Donghyeok Jo and **Sungkyu Jung** (2025). “Inference on the shape of densities on Riemannian manifolds via SiZer”, *Journal of Korean Statistical Society*, 54, 442-477.
-        *(이하 생략 - 기존 리스트를 이 형식으로 붙여넣으세요)*
     design:
       columns: '1'
+      spacing:
+      padding: ['60px', '5%', '60px', '5%']
 
   - block: markdown
     content:
@@ -50,4 +53,6 @@ sections:
         * Recently developed software can be found at [**GitHub repo**](https://github.com/sungkyujung)
     design:
       columns: '1'
+      spacing:
+      padding: ['60px', '5%', '60px', '5%']
 ---
