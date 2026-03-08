@@ -3,49 +3,38 @@ title: Members
 type: landing
 
 sections:
-  - block: collection
+  - block: markdown
     content:
       title: Professor
-      filters:
-        folders:
-          - authors
-        tags:
-          - Professor
+      text: |
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
+          <img src="/members/jung.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;"><a href="https://jung.snu.ac.kr" target="_blank" style="text-decoration: none; color: #1e3a8a;">정성규 (Sungkyu Jung)</a></h3>
+            
+            <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Professor</div>
+            
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #374151;">서울대학교 통계학과 교수로 재직중이며, 통계적 학습 이론 연구실을 맡아 학생들과 함께 연구를 진행하고 있습니다.</p>
+          </div>
+        </div>
     design:
-      view: compact
+      columns: '1'
 
-  - block: collection
-    content:
-      title: Postdoctoral Researchers
-      filters:
-        folders:
-          - authors
-        tags:
-          - Postdoctoral Researchers
-    design:
-      view: compact
-
-  - block: collection
+  - block: markdown
     content:
       title: Ph.D. Students
-      filters:
-        folders:
-          - authors
-        tags:
-          - Ph.D. Students
+      text: |
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
+          <img src="/members/student1.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;">학생 이름</h3>
+            <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #374151;">이곳에 학생의 짧은 소개나 관심 연구 분야를 적습니다.</p>
+          </div>
+        </div>
     design:
-      view: compact
-
-  - block: collection
-    content:
-      title: Master Students
-      filters:
-        folders:
-          - authors
-        tags:
-          - Master Students
-    design:
-      view: compact
+      columns: '1'
 
   - block: markdown
     content:
