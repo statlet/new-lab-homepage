@@ -8,8 +8,10 @@ sections:
       title: 'Highlights'
       subtitle: 'Last updated: October 2, 2025'
       text: |
-        design:
+    design:
       columns: '1'
+      spacing:
+        padding: ['60px', '5%', '60px', '5%']
 
   - block: markdown
     content:
