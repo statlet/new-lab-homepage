@@ -55,8 +55,8 @@ sections:
         <style>
           /* 딱 이 페이지에 있는 표(Alumni) 간격만 좁히는 암행어사 코드 */
           .prose table th, .prose table td { 
-            padding-top: 0.2rem !important; 
-            padding-bottom: 0.2rem !important; 
+            padding-top: 0.3rem !important; 
+            padding-bottom: 0.3rem !important; 
           }
         </style>
         
