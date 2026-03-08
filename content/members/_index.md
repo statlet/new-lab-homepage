@@ -51,8 +51,8 @@ sections:
     content:
       title: Alumni
       text: |
-        | 이름   | 졸업연도  | 현재 소속 |
-          |--------|--------------|----------------------------------------------------------|
+        |&nbsp;&nbsp;이름&nbsp;&nbsp; | 졸업연도  | 현재 소속 |
+          | :--- | :--- | :--- |
           | **김재민** | M.S 2020 | 금융감독원 |
           | **장우녕** | M.S 2021 | Ph.D. student in Statistics at Carnegie Mellon University |
           | **강종경** | Postdoctoral Researcher | Professor, Kangwon National University, Chunchun, Korea. |
