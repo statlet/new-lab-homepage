@@ -19,7 +19,7 @@ sections:
       columns: '1'
       css_class: 'vw55block' 
       spacing:
-        padding: ['40px', '0', '30px', '0'] # ⚠️ 기본 방석을 얇게 깎아냄
+        padding: ['70px', '0', '70px', '0'] # ⚠️ 기본 방석을 얇게 깎아냄
 
   - block: markdown
     content:
@@ -46,7 +46,7 @@ sections:
       columns: '1'
       css_class: 'vw55block' 
       spacing:
-        padding: ['10px', '0', '30px', '0'] # ⚠️ 여백 대폭 축소
+        padding: ['10px', '0', '70px', '0'] # ⚠️ 여백 대폭 축소
 
   - block: markdown
     content:
