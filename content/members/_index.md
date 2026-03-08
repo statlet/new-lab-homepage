@@ -3,13 +3,12 @@ title: Members
 type: landing
 
 sections:
-  - block: people
+  - block: collection
     content:
       title: 연구실 구성원
-      user_groups:
-        - Professor
-        - Postdoctoral Researchers
-        - Ph.D. Students
-        - Master Students
-        - Alumni
+      filters:
+        folders:
+          - authors
+    design:
+      view: compact
 ---
