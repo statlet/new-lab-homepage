@@ -23,7 +23,7 @@ sections:
       title: Ph.D. Students
       text: |
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
-          <img src="/members/giheon_seong.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="/members/giheon_seong.jpg" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;">성기헌</h3>
             <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
