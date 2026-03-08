@@ -7,12 +7,12 @@ sections:
     content:
       title: Professor
       text: |
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
-          <img src="/members/sungkyu_jung.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+          <img src="/members/sungkyu_jung.png" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;"><a href="https://jung.snu.ac.kr" target="_blank" style="text-decoration: none; color: #1e3a8a;">정성규 (Sungkyu Jung)</a></h3>
-            <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Professor</div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #374151;">서울대학교 통계학과 교수로 재직중이며, 통계적 학습 이론 연구실을 맡아 학생들과 함께 연구를 진행하고 있습니다. 비유클리디안 데이터와 고차원 데이터 및 데이터 사이언스 전반에 대한 통계적 이론과 방법론에 관심을 두고 연구를 해나가고 있습니다. 자세한 소개는 제 개인 홈페이지를 방문해주세요.</p>
+            <div style="color: #4b5563; font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Professor</div>
+            <p style="margin: 0; font-size: 1.1rem; line-height: 1.7; color: #374151;">서울대학교 통계학과 교수로 재직중이며, 통계적 학습 이론 연구실을 맡아 학생들과 함께 연구를 진행하고 있습니다. 비유클리디안 데이터와 고차원 데이터 및 데이터 사이언스 전반에 대한 통계적 이론과 방법론에 관심을 두고 연구를 해나가고 있습니다. 자세한 소개는 제 개인 홈페이지를 방문해주세요.</p>
           </div>
         </div>
     design:
@@ -31,7 +31,7 @@ sections:
           </div>
         </div>
 
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 25px;">
           <img src="/members/kyuwon_kim.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;">김규원</h3>
