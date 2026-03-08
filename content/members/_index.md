@@ -7,7 +7,7 @@ sections:
     content:
       title: Professor
       text: |
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 20px; gap: 40px;">
           <img src="/members/sungkyu_jung.png" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;"><a href="https://jung.snu.ac.kr" target="_blank" style="text-decoration: none; color: #1e3a8a;">정성규, Sungkyu Jung</a></h3>
@@ -18,12 +18,14 @@ sections:
     design:
       columns: '1'
       css_class: 'vw55block' 
+      spacing:
+        padding: ['30px', '0', '10px', '0'] # ⚠️ 기본 방석을 얇게 깎아냄
 
   - block: markdown
     content:
       title: Ph.D. Students
       text: |
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 40px;">
           <img src="/members/giheon_seong.jpg" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;">성기헌</h3>
@@ -32,7 +34,7 @@ sections:
           </div>
         </div>
 
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 20px; gap: 40px;">
           <img src="/members/kyuwon_kim.png" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;">김규원</h3>
@@ -43,29 +45,33 @@ sections:
     design:
       columns: '1'
       css_class: 'vw55block' 
+      spacing:
+        padding: ['10px', '0', '10px', '0'] # ⚠️ 여백 대폭 축소
 
   - block: markdown
     content:
       title: Alumni
       text: |
         | <div style="min-width: 100px;">이름</div> | <div style="min-width: 120px;">졸업연도</div> | 현재 소속 |
-          | :--- | :--- | :--- |
-          | **김재민** | M.S 2020 | 금융감독원 |
-          | **장우녕** | M.S 2021 | Ph.D. student in Statistics at Carnegie Mellon University |
-          | **강종경** | Postdoctoral Researcher | Professor, Kangwon National University, Chunchun, Korea. |
-          | **손주희** | M.S 2022 | Meritz Fire & Marine Insurance Co., Ltd. |
-          | **홍승기** | M.S 2022 | Meritz Fire & Marine Insurance Co., Ltd. |
-          | **김태현** | M.S 2023 | Ph.D. student in Statistics at Columbia University |
-          | **유창조** | M.S 2023 | LG Electronics |
-          | **최서원** | Ph.D. 2023    | 서울대학교 의과대학 의과학대학원 연수연구원 |
-          | **곽승우** | Postdoctoral Researcher | Professor, Sungkonghoe University, Seoul, Korea. |
-          | **김기풍** | Postdoctoral Researcher | Professor, Changwon National University, Changwon, Korea. |
-          | **이수진** | Ph.D. 2024 | LG Energy Solution |
-          | **조동혁** | Ph.D. 2024 | Samsumg SDS |
-          | **한소율** | Postdoctoral Researcher | Professor, Hannam University, Daejeon, Korea. |
-          | **한상일** | Ph.D. 2024 | Postdoctoral Researcher at Transportation Institute, Texas A&M University |
-          | **윤동선** | M.S 2025 | Ph.D. student in Statistics at University of Michigan--Ann Arbor |
+        | :--- | :--- | :--- |
+        | **김재민** | M.S 2020 | 금융감독원 |
+        | **장우녕** | M.S 2021 | Ph.D. student in Statistics at Carnegie Mellon University |
+        | **강종경** | Postdoctoral Researcher | Professor, Kangwon National University, Chunchun, Korea. |
+        | **손주희** | M.S 2022 | Meritz Fire & Marine Insurance Co., Ltd. |
+        | **홍승기** | M.S 2022 | Meritz Fire & Marine Insurance Co., Ltd. |
+        | **김태현** | M.S 2023 | Ph.D. student in Statistics at Columbia University |
+        | **유창조** | M.S 2023 | LG Electronics |
+        | **최서원** | Ph.D. 2023 | 서울대학교 의과대학 의과학대학원 연수연구원 |
+        | **곽승우** | Postdoctoral Researcher | Professor, Sungkonghoe University, Seoul, Korea. |
+        | **김기풍** | Postdoctoral Researcher | Professor, Changwon National University, Changwon, Korea. |
+        | **이수진** | Ph.D. 2024 | LG Energy Solution |
+        | **조동혁** | Ph.D. 2024 | Samsumg SDS |
+        | **한소율** | Postdoctoral Researcher | Professor, Hannam University, Daejeon, Korea. |
+        | **한상일** | Ph.D. 2024 | Postdoctoral Researcher at Transportation Institute, Texas A&M University |
+        | **윤동선** | M.S 2025 | Ph.D. student in Statistics at University of Michigan--Ann Arbor |
     design:
       columns: '1'
       css_class: 'vw55block' 
+      spacing:
+        padding: ['10px', '0', '40px', '0']
 ---
