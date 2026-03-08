@@ -23,7 +23,7 @@ sections:
 
   - block: markdown
     content:
-      title: Ph.D. Students
+      title: Students
       text: |
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 40px;">
           <img src="/members/giheon_seong.jpg" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
@@ -52,7 +52,15 @@ sections:
     content:
       title: Alumni
       text: |
-        | <div style="min-width: 100px;">이름</div> | <div style="min-width: 120px;">졸업연도</div> | 현재 소속 |
+        <style>
+          /* 딱 이 페이지에 있는 표(Alumni) 간격만 좁히는 암행어사 코드 */
+          .prose table th, .prose table td { 
+            padding-top: 0.2rem !important; 
+            padding-bottom: 0.2rem !important; 
+          }
+        </style>
+        
+        | 이름 | 졸업연도 | 현재 소속 |
         | :--- | :--- | :--- |
         | **김재민** | M.S 2020 | 금융감독원 |
         | **장우녕** | M.S 2021 | Ph.D. student in Statistics at Carnegie Mellon University |
