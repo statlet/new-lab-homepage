@@ -8,7 +8,7 @@ sections:
       title: Professor
       text: |
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
-          <img src="/members/sungkyu_jung.png" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="/members/sungkyu_jung.png" style="width: 180px; height: 180px; border-radius: 8px; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;"><a href="https://jung.snu.ac.kr" target="_blank" style="text-decoration: none; color: #1e3a8a;">정성규 (Sungkyu Jung)</a></h3>
             <div style="color: #4b5563; font-size: 1.2rem; font-weight: 600; margin-bottom: 10px;">Professor</div>
