@@ -17,7 +17,7 @@ sections:
         </div>
     design:
       columns: '1'
-      css_class: 'wide-board' 
+      css_class: 'vw55block' 
 
   - block: markdown
     content:
@@ -42,7 +42,7 @@ sections:
         </div>
     design:
       columns: '1'
-      css_class: 'wide-board' 
+      css_class: 'vw55block' 
 
   - block: markdown
     content:
@@ -67,5 +67,5 @@ sections:
           | **윤동선** | M.S 2025 | Ph.D. student in Statistics at University of Michigan--Ann Arbor |
     design:
       columns: '1'
-      css_class: 'wide-board' 
+      css_class: 'vw55block' 
 ---
