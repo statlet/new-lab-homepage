@@ -10,9 +10,7 @@ sections:
         ##### Last updated: March 8, 2026
     design:
       columns: '1'
-      css_class: '!max-w-none'   # ⚠️ 핵심: 독서 모드(65글자 제한) 강제 해제!
-      spacing:
-        padding: ['60px', '5%', '60px', '5%']
+      css_class: 'w-55'
 
   - block: markdown
     content:
@@ -24,7 +22,7 @@ sections:
         2. **Minwoo Kim**, Sangil Han, Jeongyoun Ahn and **Sungkyu Jung** (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in *Journal of Computational and Graphical Statistics*.
     design:
       columns: '1'
-      css_class: 'w-50'
+      css_class: 'w-55'
 
   - block: markdown
     content:
@@ -35,7 +33,7 @@ sections:
         3. Donghyeok Jo and **Sungkyu Jung** (2025). “Inference on the shape of densities on Riemannian manifolds via SiZer”, *Journal of Korean Statistical Society*, 54, 442-477.
     design:
       columns: '1'
-      css_class: 'w-50'
+      css_class: 'w-55'
 
   - block: markdown
     content:
@@ -45,7 +43,7 @@ sections:
         2. **Minwoo Kim**, Junyong Park and **Sungkyu Jung**. “Enhanced Differentially Private Mechanisms via Empirical Bayes,” *manuscript*.
     design:
       columns: '1'
-      css_class: 'w-50'
+      css_class: 'w-55'
     
 
   - block: markdown
@@ -56,5 +54,5 @@ sections:
         * Recently developed software can be found at [**GitHub repo**](https://github.com/sungkyujung)
     design:
       columns: '1'
-      css_class: 'w-50'
+      css_class: 'w-55'
 ---
