@@ -1,14 +1,9 @@
-/* 1. 기본적으로 모든 바깥쪽 상자는 80vw로 넓히기 (Members 등 전체 적용) */
+/* 1. 기본적으로 모든 바깥쪽 상자는 45vw로 넓히기 (전체 적용) */
 section div.flex { 
     max-width: 45vw !important; 
 }
 
-/* 2. 'w-55'이라는 이름표가 붙은 상자만 특별히 55vw로 설정! (Publications 전용) */
-section.w-55 div.flex {
-    max-width: 55vw !important;
-}
-
-/* 3. 안쪽 텍스트 상자(마크다운 영역) 고집 꺾기 - 바깥 상자에 100% 맞추기 (그대로 유지) */
+/* 2. 안쪽 텍스트 상자(마크다운 영역) 고집 꺾기 - 바깥 상자에 100% 맞추기 (그대로 유지) */
 .prose, 
 .max-w-prose,
 .max-w-screen-md,
