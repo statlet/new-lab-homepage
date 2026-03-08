@@ -34,7 +34,7 @@ sections:
     design:
       columns: '1'
       spacing:
-      padding: ['60px', '5%', '60px', '5%']
+        padding: ['60px', '5%', '60px', '5%']
 
   - block: markdown
     content:
@@ -44,6 +44,9 @@ sections:
         2. **Minwoo Kim**, Junyong Park and **Sungkyu Jung**. “Enhanced Differentially Private Mechanisms via Empirical Bayes,” *manuscript*.
     design:
       columns: '1'
+      spacing:
+        padding: ['60px', '5%', '60px', '5%']
+    
 
   - block: markdown
     content:
@@ -54,5 +57,5 @@ sections:
     design:
       columns: '1'
       spacing:
-      padding: ['60px', '5%', '60px', '5%']
+        padding: ['60px', '5%', '60px', '5%']
 ---
