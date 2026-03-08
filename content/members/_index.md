@@ -58,11 +58,11 @@ sections:
             padding-top: 0.3rem !important; 
             padding-bottom: 0.3rem !important; 
           }
-        </style>
         /* 제목과 표 사이의 붕 뜬 위쪽 간격 없애기 */
           .prose table {
             margin-top: 1em !important;
           }
+        </style>
         
         | 이름 | 졸업연도 | 현재 소속 |
         | :--- | :--- | :--- |
