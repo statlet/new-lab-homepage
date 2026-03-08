@@ -8,7 +8,7 @@ sections:
       title: 연구실 구성원
       user_groups:
         - Professor
-        - Post Docs
+        - Postdoctoral Researchers
         - Ph.D. Students
         - Master Students
         - Alumni
