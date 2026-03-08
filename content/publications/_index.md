@@ -10,7 +10,9 @@ sections:
         ##### Last updated: March 8, 2026
     design:
       columns: '1'
-      css_class: 'w-50'
+      css_class: '!max-w-none'   # ⚠️ 핵심: 독서 모드(65글자 제한) 강제 해제!
+      spacing:
+        padding: ['60px', '5%', '60px', '5%']
 
   - block: markdown
     content:
