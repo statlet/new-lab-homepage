@@ -5,26 +5,22 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 'Highlights'
+      title: ''
       text: |
         ##### Last updated: March 8, 2026
     design:
-      columns: '1'
-      spacing:
-        padding: ['60px', '5%', '60px', '5%']
-      is_full_width: true
+      columns: '2'
 
   - block: markdown
     content:
       title: 'Accepted for Publication'
       text: |
+        ### Accepted for Publication
         1. **Sujin Lee** and **Sungkyu Jung** (2025+). “Debiased Group Lasso for Multiple Compositional Data,” accepted for publication in *Annals of the Institute of Statistical Mathematics*.
+    
         2. **Minwoo Kim**, Sangil Han, Jeongyoun Ahn and **Sungkyu Jung** (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in *Journal of Computational and Graphical Statistics*.
     design:
-      columns: '1'
-      spacing:
-        padding: ['60px', '5%', '60px', '5%']
-      is_full_width: true
+      columns: '2'
 
   - block: markdown
     content:
