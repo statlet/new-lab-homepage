@@ -8,7 +8,7 @@ sections:
       title: Professor
       text: |
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
-          <img src="/members/sungkyu_jung.png" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <img src="/members/sungkyu_jung.png" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;"><a href="https://jung.snu.ac.kr" target="_blank" style="text-decoration: none; color: #1e3a8a;">정성규, Sungkyu Jung</a></h3>
             <div style="color: #4b5563; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">Professor</div>
@@ -23,21 +23,21 @@ sections:
     content:
       title: Ph.D. Students
       text: |
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 25px;">
-          <img src="/members/giheon_seong.jpg" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+          <img src="/members/giheon_seong.jpg" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
-            <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;">성기헌</h3>
-            <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #374151;">박사과정 재학 중인 성기헌 입니다. 현재는 적절한 가정 하에서, 고차원 데이터에 PCA를 적용하였을 때 생기는 bias와 이를 보정할 수 있는 방법론을 공부하고 있습니다. 이후에도 고차원 데이터 분석 방법론을 연구하고 싶습니다.</p>
+            <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;">성기헌</h3>
+            <div style="color: #4b5563; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
+            <p style="margin: 0; font-size: 1.05rem; line-height: 1.7; color: #374151;">박사과정 재학 중인 성기헌 입니다. 현재는 적절한 가정 하에서, 고차원 데이터에 PCA를 적용하였을 때 생기는 bias와 이를 보정할 수 있는 방법론을 공부하고 있습니다. 이후에도 고차원 데이터 분석 방법론을 연구하고 싶습니다.</p>
           </div>
         </div>
 
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 25px;">
-          <img src="/members/kyuwon_kim.png" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 50px; gap: 40px;">
+          <img src="/members/kyuwon_kim.png" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <div style="flex: 1; min-width: 250px;">
-            <h3 style="margin: 0 0 5px 0; font-size: 1.4rem;">김규원</h3>
-            <div style="color: #4b5563; font-size: 1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
-            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #374151;">석박사 통합과정 김규원입니다. 연구분야는 multi-source data를 분석하기 위한 통계모델 개발 및 연구입니다. 고차원 데이터 분석을 위한 generalized PCA방법과 canonical correlation analysis에도 관심 있습니다.</p>
+            <h3 style="margin: 0 0 5px 0; font-size: 1.3rem;">김규원</h3>
+            <div style="color: #4b5563; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">Ph.D. Student</div>
+            <p style="margin: 0; font-size: 1.05rem; line-height: 1.7; color: #374151;">석박사 통합과정 김규원입니다. 연구분야는 multi-source data를 분석하기 위한 통계모델 개발 및 연구입니다. 고차원 데이터 분석을 위한 generalized PCA방법과 canonical correlation analysis에도 관심 있습니다.</p>
           </div>
         </div>
     design:
