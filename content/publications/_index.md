@@ -12,6 +12,7 @@ sections:
       columns: '1'
       spacing:
         padding: ['60px', '5%', '60px', '5%']
+      is_full_width: true
 
   - block: markdown
     content:
@@ -23,6 +24,7 @@ sections:
       columns: '1'
       spacing:
         padding: ['60px', '5%', '60px', '5%']
+      is_full_width: true
 
   - block: markdown
     content:
