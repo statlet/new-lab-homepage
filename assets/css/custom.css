@@ -1,5 +1,5 @@
 /* 1. 기본적으로 모든 바깥쪽 상자는 45vw로 넓히기 (전체 적용) */
-section div.flex { 
+section.wide-board div.flex { 
     max-width: 45vw !important; 
 }
 
