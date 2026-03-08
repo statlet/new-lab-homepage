@@ -1,9 +1,0 @@
-/* 일반 페이지(게시물 등)의 너비 넓히기 */
-.article-container {
-    max-width: 1200px !important; /* 원하는 크기(px나 %)로 자유롭게 조절하세요 */
-}
-
-/* 홈 화면 등 블록(Widget) 기반 페이지의 너비 넓히기 */
-section .container {
-    max-width: 1200px !important;
-}
