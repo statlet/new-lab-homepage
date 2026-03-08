@@ -1,6 +1,6 @@
 /* 1. 바깥쪽 상자 80%로 넓히기 */
 section div.flex { 
-    max-width: 70vw !important; 
+    max-width: 55vw !important; 
 }
 
 /* 2. 안쪽 텍스트 상자(마크다운 영역) 고집 꺾기 - 바깥 상자에 100% 맞추기 */
