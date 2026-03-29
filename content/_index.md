@@ -3,8 +3,8 @@ title: Home
 type: landing
 
 sections:
-  # 1. 환영 인사 및 소개 (깔끔한 흰색 배경)
-  - block: markdown
+  # 1. 메인 간판 (Hero 블록 부활 - 묵직하고 세련된 네이비 배경)
+  - block: hero
     content:
       title: 'Statistical Learning Theory Lab'
       text: |
@@ -12,12 +12,13 @@ sections:
         
         우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 High-dimension low-sample size (HDLSS) problems, geometrical data, non-euclidean type data 들을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.
     design:
-      columns: '1'
-      css_class: 'vw55block' 
+      background:
+        color: '#112240' # 학술적이고 무게감 있는 딥 네이비 색상
+        text_color_light: true
       spacing:
-        padding: ['60px', '0', '40px', '0']
+        padding: ['100px', '0', '100px', '0']
 
-  # 2. 최근 뉴스 (News 파일에 글을 쓸 때, 여기서도 상위 3개를 복사해서 붙여넣어 주시면 됩니다)
+  # 2. 최근 뉴스 (깔끔한 흰색 배경)
   - block: markdown
     content:
       title: 'Recent News'
@@ -31,19 +32,19 @@ sections:
       columns: '1'
       css_class: 'vw55block' 
       spacing:
-        padding: ['20px', '0', '40px', '0']
+        padding: ['60px', '0', '20px', '0']
 
-# 3. 심플한 연락처 정보 (교수님 1명 + 방장 1명)
+  # 3. 심플한 연락처 정보
   - block: markdown
     content:
       title: 'Contact Us'
       text: |
         <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-top: 20px;">
           
-          <div style="flex: 1; min-width: 250px; background-color: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #1e3a8a;">
+          <div style="flex: 1; min-width: 250px; background-color: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #112240;">
             <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">정성규 (Sungkyu Jung)</h3>
             <div style="color: #4b5563; font-size: 0.95rem; font-weight: 600; margin-bottom: 15px;">Director</div>
-            <p style="margin: 0; font-size: 1rem;">📧 <a href="mailto:sungkyu@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">sungkyu@snu.ac.kr</a></p>
+            <p style="margin: 0; font-size: 1rem;">📧 <a href="mailto:sungkyu@snu.ac.kr" style="color: #112240; text-decoration: none;">sungkyu@snu.ac.kr</a></p>
           </div>
 
           <div style="flex: 1; min-width: 250px; background-color: #f8fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #475569;">
@@ -57,5 +58,5 @@ sections:
       columns: '1'
       css_class: 'vw55block' 
       spacing:
-        padding: ['20px', '0', '60px', '0']
+        padding: ['20px', '0', '80px', '0']
 ---
