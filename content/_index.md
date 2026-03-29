@@ -3,62 +3,103 @@ title: Home
 type: landing
 
 sections:
-  # 1. 메인 간판 (hero 블록 대신 markdown 블록 사용 -> 높이/너비 문제 완벽 해결!)
+  # 1. 메인 간판 (Navy) - 좌측 정렬 및 텍스트 넓이 확장
   - block: markdown
     content:
-      title: 'Statistical Learning Theory Lab'
+      title: '' 
       text: |
-        **서울대학교 통계학과 통계적 학습이론 연구실에 오신 것을 환영합니다.**
-        
-        우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 High-dimension low-sample size (HDLSS) problems, geometrical data, non-euclidean type data 들을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.
+        <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+          <h1 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Statistical Learning Theory Lab</h1>
+          
+          <div style="font-size: 1.1rem; line-height: 1.8;">
+            <p><strong>서울대학교 통계학과 통계적 학습이론 연구실에 오신 것을 환영합니다.</strong></p>
+            <p>우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 High-dimension low-sample size (HDLSS) problems, geometrical data, non-euclidean type data 들을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.</p>
+          </div>
+        </div>
     design:
       background:
-        color: '#112240' # 딥 네이비 배경색
-        text_color_light: true # 글자색을 자동으로 흰색으로 변경
+        color: '#112240'
+        text_color_light: true
       columns: '1'
-      css_class: 'vw55block' # ⚠️ 우리가 만든 마법의 이름표! 이제 글자가 좌우로 시원하게 퍼집니다.
       spacing:
-        padding: ['80px', '0', '80px', '0'] # 위아래 여백을 대폭 줄여서 배너처럼 만듦
+        padding: ['100px', '5%', '100px', '5%']
 
-  # 2. 최근 뉴스
+  # 2. Research Interests (새로 추가됨)
   - block: markdown
     content:
-      title: 'Recent News'
+      title: ''
       text: |
-        * **[2026-03-29]** 통계적 학습이론 연구실 홈페이지를 새롭게 단장했습니다.
-        * **[2026-03-26]** 딥러닝을 주제로 한 연구실 세미나가 시작되었습니다.
-        * **[2026-02-25]** 김용재 학생이 박사과정을, 김우열, 유지현 학생이 석사과정을 졸업하였습니다.
-        
-        [➔ View all news](/news/)
-    design:
-      columns: '1'
-      css_class: 'vw55block' 
-      spacing:
-        padding: ['60px', '0', '20px', '0']
+        <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+          <h2 style="margin-bottom: 40px; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; font-size: 2rem;">Research Interests</h2>
 
-  # 3. 심플한 연락처 정보 (카드 형식 제거, 이상한 아이콘 제거)
-  - block: markdown
-    content:
-      title: 'Contact Us'
-      text: |
-        <div style="display: flex; flex-wrap: wrap; gap: 40px; margin-top: 10px;">
-          
-          <div style="flex: 1; min-width: 250px;">
-            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">정성규 (Sungkyu Jung)</h3>
-            <div style="color: #4b5563; font-size: 0.95rem; font-weight: 600; margin-bottom: 10px;">Director</div>
-            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:sungkyu@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">sungkyu@snu.ac.kr</a></p>
+          <div style="display: flex; flex-wrap: wrap; gap: 50px;">
+            <div style="flex: 1; min-width: 250px;">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">📊</div>
+              <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">High-dimension low-sample-size problem</h3>
+              <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 소표본 상황에서 발생하는 통계적 한계를 극복하는 방법론 연구</p>
+            </div>
+            <div style="flex: 1; min-width: 250px;">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">🌐</div>
+              <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Non-euclidean data</h3>
+              <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
+            </div>
+            <div style="flex: 1; min-width: 250px;">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
+              <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Data Privacy</h3>
+              <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">데이터 프라이버시를 보존하면서도 유의미한 통계적 추론을 수행하는 기법 개발</p>
+            </div>
           </div>
-
-          <div style="flex: 1; min-width: 250px;">
-            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">김규원</h3>
-            <div style="color: #4b5563; font-size: 0.95rem; font-weight: 600; margin-bottom: 10px;">Lab Manager</div>
-            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:kwkim1224@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">kwkim1224@snu.ac.kr</a></p>
-          </div>
-
         </div>
     design:
       columns: '1'
-      css_class: 'vw55block' 
       spacing:
-        padding: ['20px', '0', '80px', '0']
+        padding: ['80px', '5%', '60px', '5%']
+
+  # 3. 최근 뉴스 (수직/좌측 정렬)
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+          <h2 style="margin-bottom: 30px; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; font-size: 2rem;">Recent News</h2>
+
+          <ul style="list-style-type: none; padding-left: 0; line-height: 2;">
+            <li><strong>[2026-03-29]</strong> 통계적 학습이론 연구실 홈페이지를 새롭게 단장했습니다.</li>
+            <li><strong>[2026-03-26]</strong> 딥러닝을 주제로 한 연구실 세미나가 시작되었습니다.</li>
+            <li><strong>[2026-02-25]</strong> 김용재 학생이 박사과정을, 김우열, 유지현 학생이 석사과정을 졸업하였습니다.</li>
+          </ul>
+          
+          <div style="margin-top: 20px;">
+            <a href="/news/" style="text-decoration: none; color: #1e3a8a; font-weight: bold;">➔ View all news</a>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['40px', '5%', '60px', '5%']
+
+  # 4. 연락처 (News와 구분되도록 아주 옅은 배경색 깔기 + 깔끔한 1열 배치)
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+          <h2 style="margin-bottom: 30px; font-size: 2rem;">Contact Us</h2>
+          
+          <div style="margin-bottom: 25px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">정성규 (Sungkyu Jung) <span style="font-size: 0.95rem; color: #6b7280; font-weight: normal;">- Director</span></h3>
+            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:sungkyu@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">sungkyu@snu.ac.kr</a></p>
+          </div>
+
+          <div>
+            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">김규원 <span style="font-size: 0.95rem; color: #6b7280; font-weight: normal;">- Lab Manager</span></h3>
+            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:kwkim1224@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">kwkim1224@snu.ac.kr</a></p>
+          </div>
+        </div>
+    design:
+      background:
+        color: '#f8fafc' # ⚠️ News 영역과 확실히 구분되도록 배경색 부여
+      columns: '1'
+      spacing:
+        padding: ['60px', '5%', '80px', '5%']
 ---
