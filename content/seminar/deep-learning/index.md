@@ -1,7 +1,10 @@
 ---
 title: Deep Learning Seminar
 date: 2026-03-26
-type: book # 사이드바 없는 깔끔한 문서 형식
+type: book
+share: false      # SNS 공유 버튼 숨기기
+profile: false    # 밑에 뜨는 작성자 프로필 숨기기
+authors: []       # 작성자 이름 아예 비우기
 ---
 
 <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
@@ -25,9 +28,9 @@ type: book # 사이드바 없는 깔끔한 문서 형식
       <td>2026-03-26</td>
       <td>성기헌, 김지우, 조성재</td>
       <td>
-        <a href="Seminar1_part_1.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">Seminar1_part_1.pdf</a>
-        <a href="Seminar1_part_2.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">Seminar1_part_2.pdf</a>
-        <a href="Seminar1_part_3.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block;">Seminar1_part_3.pdf</a>
+        <a href="여기에_링크를_넣으세요" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">📄 Seminar1_part 1.pdf</a>
+        <a href="여기에_링크를_넣으세요" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">📄 Seminar1_part 2.pdf</a>
+        <a href="여기에_링크를_넣으세요" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block;">📄 Seminar1_part 3.pdf</a>
       </td>
     </tr>
   </tbody>
