@@ -31,21 +31,25 @@ sections:
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
+        
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <div style="font-size: 2.5rem; margin-bottom: 15px;">📊</div>
+        <img src="/research/hdlss.png" alt="HDLSS" style="height: 65px; margin-bottom: 15px; object-fit: contain;">
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">High-dimension low-sample-size problem</h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 소표본 상황에서 발생하는 통계적 한계를 극복하는 방법론 연구</p>
         </div>
+        
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <div style="font-size: 2.5rem; margin-bottom: 15px;">🌐</div>
+        <img src="/research/non_euclidean.png" alt="Non-euclidean" style="height: 65px; margin-bottom: 15px; object-fit: contain;">
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Non-euclidean data</h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
         </div>
+        
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
+        <img src="/research/privacy.png" alt="Data Privacy" style="height: 65px; margin-bottom: 15px; object-fit: contain;">
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Data Privacy</h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">데이터 프라이버시를 보존하면서도 유의미한 통계적 추론을 수행하는 기법 개발</p>
         </div>
+        
         </div>
         </div>
     design:
@@ -85,7 +89,7 @@ sections:
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="display: flex; flex-direction: column; gap: 30px; color: #374151;">
         <div>
-        <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">정성규 (Sungkyu Jung) <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Director</span></h3>
+        <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">정성규 (Sungkyu Jung) <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Professor</span></h3>
         <p style="margin: 0; font-size: 1.05rem;">Email: sungkyu@snu.ac.kr</p>
         </div>
         <div>
