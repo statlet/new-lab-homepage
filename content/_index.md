@@ -44,7 +44,7 @@ sections:
           <img src="/research/hdlss.png" alt="High-dimension low-sample-size" class="research-img">
         </a>
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#hdlss" style="text-decoration: none; color: inherit;">HDLSS Problem</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 통계적 현장에 대한 연구</p>
+        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 기하적, 통계적 현상에 대한 연구</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
