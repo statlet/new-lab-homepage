@@ -20,6 +20,7 @@ sections:
         color: '#112240'
         text_color_light: true
       columns: '1'
+      css_class: '!max-w-none' # ⚠️ 이 구역 제한 해제!
       spacing:
         padding: ['100px', '5%', '100px', '5%']
 
@@ -51,6 +52,7 @@ sections:
         </div>
     design:
       columns: '1'
+      css_class: '!max-w-none' # ⚠️ 이 구역 제한 해제!
       spacing:
         padding: ['80px', '5%', '60px', '5%']
 
@@ -73,6 +75,7 @@ sections:
         </div>
     design:
       columns: '1'
+      css_class: '!max-w-none' # ⚠️ 이 구역 제한 해제!
       spacing:
         padding: ['40px', '5%', '60px', '5%']
 
@@ -99,6 +102,7 @@ sections:
       background:
         color: '#f8fafc' 
       columns: '1'
+      css_class: '!max-w-none' # ⚠️ 이 구역 제한 해제!
       spacing:
         padding: ['60px', '5%', '80px', '5%']
 ---
