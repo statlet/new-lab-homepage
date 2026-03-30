@@ -3,7 +3,7 @@ title: Home
 type: landing
 
 sections:
-  # 1. 메인 간판 (Navy) - 좌측 정렬 및 텍스트 넓이 확장
+  # 1. 메인 간판 (Navy)
   - block: markdown
     content:
       title: '' 
@@ -24,26 +24,27 @@ sections:
       spacing:
         padding: ['100px', '5%', '100px', '5%']
 
-  # 2. Research Interests (새로 추가됨)
+  # 2. Research Interests (좌우 끝선 완벽 정렬)
   - block: markdown
     content:
       title: ''
       text: |
         <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
-          <h2 style="margin-bottom: 40px; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; font-size: 2rem;">Research Interests</h2>
+          <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
+          <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px;">
 
-          <div style="display: flex; flex-wrap: wrap; gap: 50px;">
-            <div style="flex: 1; min-width: 250px;">
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
+            <div style="flex: 1; min-width: 280px; max-width: 310px;">
               <div style="font-size: 2.5rem; margin-bottom: 15px;">📊</div>
               <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">High-dimension low-sample-size problem</h3>
               <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 소표본 상황에서 발생하는 통계적 한계를 극복하는 방법론 연구</p>
             </div>
-            <div style="flex: 1; min-width: 250px;">
+            <div style="flex: 1; min-width: 280px; max-width: 310px;">
               <div style="font-size: 2.5rem; margin-bottom: 15px;">🌐</div>
               <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Non-euclidean data</h3>
               <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
             </div>
-            <div style="flex: 1; min-width: 250px;">
+            <div style="flex: 1; min-width: 280px; max-width: 310px;">
               <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
               <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Data Privacy</h3>
               <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">데이터 프라이버시를 보존하면서도 유의미한 통계적 추론을 수행하는 기법 개발</p>
@@ -55,21 +56,22 @@ sections:
       spacing:
         padding: ['80px', '5%', '60px', '5%']
 
-  # 3. 최근 뉴스 (수직/좌측 정렬)
+  # 3. 최근 뉴스 (들여쓰기 완전 삭제, 좌측 끝선 일치)
   - block: markdown
     content:
       title: ''
       text: |
         <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
-          <h2 style="margin-bottom: 30px; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; font-size: 2rem;">Recent News</h2>
+          <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Recent News</h2>
+          <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px;">
 
-          <ul style="list-style-type: none; padding-left: 0; line-height: 2;">
-            <li><strong>[2026-03-29]</strong> 통계적 학습이론 연구실 홈페이지를 새롭게 단장했습니다.</li>
-            <li><strong>[2026-03-26]</strong> 딥러닝을 주제로 한 연구실 세미나가 시작되었습니다.</li>
-            <li><strong>[2026-02-25]</strong> 김용재 학생이 박사과정을, 김우열, 유지현 학생이 석사과정을 졸업하였습니다.</li>
-          </ul>
+          <div style="line-height: 2; font-size: 1.05rem; color: #374151;">
+            <div style="margin-bottom: 10px;"><strong>[2026-03-29]</strong> 통계적 학습이론 연구실 홈페이지를 새롭게 단장했습니다.</div>
+            <div style="margin-bottom: 10px;"><strong>[2026-03-26]</strong> 딥러닝을 주제로 한 연구실 세미나가 시작되었습니다.</div>
+            <div style="margin-bottom: 10px;"><strong>[2026-02-25]</strong> 김용재 학생이 박사과정을, 김우열, 유지현 학생이 석사과정을 졸업하였습니다.</div>
+          </div>
           
-          <div style="margin-top: 20px;">
+          <div style="margin-top: 25px;">
             <a href="/news/" style="text-decoration: none; color: #1e3a8a; font-weight: bold;">➔ View all news</a>
           </div>
         </div>
@@ -78,27 +80,30 @@ sections:
       spacing:
         padding: ['40px', '5%', '60px', '5%']
 
-  # 4. 연락처 (News와 구분되도록 아주 옅은 배경색 깔기 + 깔끔한 1열 배치)
+  # 4. 연락처 (하이퍼링크 제거, 동일한 밑줄 디자인으로 통일감 부여)
   - block: markdown
     content:
       title: ''
       text: |
         <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
-          <h2 style="margin-bottom: 30px; font-size: 2rem;">Contact Us</h2>
+          <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Contact Us</h2>
+          <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px;">
           
-          <div style="margin-bottom: 25px;">
-            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">정성규 (Sungkyu Jung) <span style="font-size: 0.95rem; color: #6b7280; font-weight: normal;">- Director</span></h3>
-            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:sungkyu@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">sungkyu@snu.ac.kr</a></p>
-          </div>
+          <div style="display: flex; flex-direction: column; gap: 30px; color: #374151;">
+            <div>
+              <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">정성규 (Sungkyu Jung) <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Director</span></h3>
+              <p style="margin: 0; font-size: 1.05rem;">Email: sungkyu@snu.ac.kr</p>
+            </div>
 
-          <div>
-            <h3 style="margin: 0 0 5px 0; font-size: 1.2rem;">김규원 <span style="font-size: 0.95rem; color: #6b7280; font-weight: normal;">- Lab Manager</span></h3>
-            <p style="margin: 0; font-size: 1rem;">Email: <a href="mailto:kwkim1224@snu.ac.kr" style="color: #1e3a8a; text-decoration: none;">kwkim1224@snu.ac.kr</a></p>
+            <div>
+              <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">김규원 <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Lab Manager</span></h3>
+              <p style="margin: 0; font-size: 1.05rem;">Email: kwkim1224@snu.ac.kr</p>
+            </div>
           </div>
         </div>
     design:
       background:
-        color: '#f8fafc' # ⚠️ News 영역과 확실히 구분되도록 배경색 부여
+        color: '#f8fafc' 
       columns: '1'
       spacing:
         padding: ['60px', '5%', '80px', '5%']
