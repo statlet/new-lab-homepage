@@ -8,7 +8,7 @@ sections:
     content:
       title: '' 
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h1 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Statistical Learning Theory Lab</h1>
         <div style="font-size: 1.1rem; line-height: 1.8; color: white;">
         <p><strong>서울대학교 통계학과 통계적 학습이론 연구실에 오신 것을 환영합니다.</strong></p>
@@ -27,7 +27,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
@@ -58,7 +58,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Recent News</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 2; font-size: 1.05rem; color: #374151;">
@@ -80,7 +80,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Contact Us</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="display: flex; flex-direction: column; gap: 30px; color: #374151;">
