@@ -66,10 +66,8 @@ sections:
             <div style="margin-bottom: 15px;">
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Non-Euclidean Statistics</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#OODA</span>
-              <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Geometric Statistics</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Generalized Fréchet Mean</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Compositional Data Analysis</span>
-              <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Directional Statistics</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Shape & Image Analysis</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 5px;">#Phylogenetic Tree Data Analysis</span>
             </div>
@@ -97,7 +95,7 @@ sections:
           </div>
           
           <div style="flex: 2; min-width: 300px;">
-            <h2 style="margin: 0 0 15px 0; font-size: 2rem; color: #112240;">Data Privacy and Inference</h2>
+            <h2 style="margin: 0 0 15px 0; font-size: 2rem; color: #112240;">Data Privacy</h2>
             <div style="margin-bottom: 15px;">
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Differential Privacy</span>
               <span style="display: inline-block; background-color: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 5px; margin-bottom: 5px;">#Synthetic Data</span>
