@@ -25,9 +25,9 @@ type: book # 사이드바 없는 깔끔한 문서 형식
       <td>2026-03-26</td>
       <td>성기헌, 김지우, 조성재</td>
       <td>
-        <a href="Seminar1_part_1.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">📄 Seminar1_part 1.pdf</a>
-        <a href="Seminar1_part_2.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">📄 Seminar1_part 2.pdf</a>
-        <a href="Seminar1_part_3.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block;">📄 Seminar1_part 3.pdf</a>
+        <a href="Seminar1_part_1.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">Seminar1_part_1.pdf</a>
+        <a href="Seminar1_part_2.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block; margin-bottom: 5px;">Seminar1_part_2.pdf</a>
+        <a href="Seminar1_part_3.pdf" target="_blank" style="color: #1e3a8a; text-decoration: none; display: block;">Seminar1_part_3.pdf</a>
       </td>
     </tr>
   </tbody>
