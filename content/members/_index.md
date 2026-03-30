@@ -8,7 +8,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Professor</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 20px; gap: 40px;">
@@ -23,14 +23,14 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['80px', '5%', '50px', '5%']
+        padding: ['100px', '5%', '50px', '5%']
 
   # 2. Students
   - block: markdown
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Students</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         <div style="display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 40px; gap: 40px;">
@@ -60,11 +60,10 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Alumni</h2>
-        <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
+        
         <style>
-        /* 1. 표가 화면에 100% 꽉 차게 펴주기 (논문 형식의 위/아래 굵은 네이비 선) */
         .prose table {
           width: 100% !important;
           margin-top: 1em !important;
@@ -72,7 +71,6 @@ sections:
           border-top: 2px solid #112240 !important; 
           border-bottom: 2px solid #112240 !important; 
         }
-        /* 2. 가독성을 높인 넉넉한 패딩, 세로줄 완전히 제거, 연한 가로줄 추가 */
         .prose table th, .prose table td { 
           padding: 0.8rem 0.5rem !important; 
           text-align: left !important;
@@ -80,7 +78,6 @@ sections:
           border-right: none !important;
           border-bottom: 1px solid #e5e7eb !important;
         }
-        /* 3. 머리글(Header) 강조 및 하단 굵은 선 */
         .prose table th {
           border-bottom: 2px solid #112240 !important;
           color: #112240 !important;
@@ -110,5 +107,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['30px', '5%', '80px', '5%']
+        padding: ['30px', '5%', '100px', '5%']
 ---
