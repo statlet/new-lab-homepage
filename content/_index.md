@@ -23,7 +23,7 @@ sections:
       spacing:
         padding: ['100px', '5%', '100px', '5%']
 
-  # 2. Research Interests (좌우 끝선 완벽 정렬)
+  # 2. Research Interests
   - block: markdown
     content:
       title: ''
@@ -54,7 +54,7 @@ sections:
       spacing:
         padding: ['80px', '5%', '60px', '5%']
 
-  # 3. 최근 뉴스 (들여쓰기 완전 삭제, 좌측 끝선 일치)
+  # 3. 최근 뉴스 
   - block: markdown
     content:
       title: ''
@@ -76,7 +76,7 @@ sections:
       spacing:
         padding: ['40px', '5%', '60px', '5%']
 
-  # 4. 연락처 (하이퍼링크 제거, 동일한 밑줄 디자인으로 통일감 부여)
+  # 4. 연락처 
   - block: markdown
     content:
       title: ''
