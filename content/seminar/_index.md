@@ -28,7 +28,7 @@ sections:
         
         <div style="margin-bottom: 40px;">
         <h3 style="margin: 0 0 5px 0; font-size: 1.5rem;"><a href="/seminar/deep-learning/" style="color: #1e3a8a; text-decoration: none;">Deep Learning Seminar ➔</a></h3>
-        <p style="margin: 0; font-size: 1.05rem; color: #4b5563;">Started: March 26, 2026 | Presenters: 성기헌, 김지우, 조성재</p>
+        <p style="margin: 0; font-size: 1.05rem; color: #4b5563;">Started: March 26, 2026</p>
         </div>
         </div>
     design:
