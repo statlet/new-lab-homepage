@@ -8,7 +8,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left; padding-bottom: 20px; border-bottom: 4px solid #112240;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left; padding-bottom: 20px; border-bottom: 4px solid #112240;">
         <h1 style="margin: 0; font-size: 3rem; color: #112240; font-weight: 800; letter-spacing: -1px;">Publications</h1>
         <p style="margin: 10px 0 0 0; font-size: 1.1rem; color: #6b7280;">Last updated: March 8, 2026</p>
         </div>
@@ -22,7 +22,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Accepted for publication</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
@@ -42,7 +42,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Published work</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
@@ -77,7 +77,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Preprints</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
@@ -103,7 +103,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Softwares</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
