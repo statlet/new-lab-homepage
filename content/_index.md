@@ -32,7 +32,8 @@ sections:
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         
         <style>
-        .research-img { height: 160px; margin-bottom: 25px; object-fit: contain; transition: transform 0.2s ease; display: block; }
+        /* 👇 width: 100% 를 추가하여 모든 사진이 가로 공간을 꽉 채우도록 수정했습니다 */
+        .research-img { width: 100%; height: 200px; margin-bottom: 20px; object-fit: contain; transition: transform 0.2s ease; display: block; }
         .research-img:hover { transform: translateY(-5px); }
         </style>
 
@@ -43,7 +44,7 @@ sections:
           <img src="/research/hdlss.png" alt="High-dimension low-sample-size" class="research-img">
         </a>
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#hdlss" style="text-decoration: none; color: inherit;">HDLSS Problem</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 통계적 한계를 극복하는 방법론 연구</p>
+        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 통계적 현장에 대한 연구</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
@@ -59,7 +60,7 @@ sections:
           <img src="/research/privacy.png" alt="Data Privacy" class="research-img">
         </a>
         <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#privacy" style="text-decoration: none; color: inherit;">Data Privacy</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">데이터 프라이버시를 보존하면서도 유의미한 통계적 추론을 수행하는 기법 개발</p>
+        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">재현 자료(Synthetic Data)와 차등정보보호(Differential Privacy)를 기반으로 한 Data Privacy 연구</p>
         </div>
         
         </div>
