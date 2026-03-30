@@ -1,6 +1,5 @@
 ---
 title: Deep Learning Seminar
-date: 2026-03-26
 type: book
 share: false
 profile: false
