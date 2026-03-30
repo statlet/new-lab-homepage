@@ -30,23 +30,35 @@ sections:
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
+        
+        <style>
+        .research-img { height: 160px; margin-bottom: 25px; object-fit: contain; transition: transform 0.2s ease; display: block; }
+        .research-img:hover { transform: translateY(-5px); }
+        </style>
+
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px;">
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <img src="/research/hdlss.png" alt="High-dimension low-sample-size" style="height: 160px; margin-bottom: 25px; object-fit: contain;">
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">HDLSS Problem</h3>
+        <a href="/research/#hdlss">
+          <img src="/research/hdlss.png" alt="High-dimension low-sample-size" class="research-img">
+        </a>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#hdlss" style="text-decoration: none; color: inherit;">HDLSS Problem</a></h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 통계적 한계를 극복하는 방법론 연구</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <img src="/research/non_euclidean.png" alt="Non-euclidean" style="height: 160px; margin-bottom: 25px; object-fit: contain;">
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Non-euclidean data</h3>
+        <a href="/research/#non-euclidean">
+          <img src="/research/non_euclidean.png" alt="Non-euclidean" class="research-img">
+        </a>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-euclidean data</a></h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
-        <img src="/research/privacy.png" alt="Data Privacy" style="height: 160px; margin-bottom: 25px; object-fit: contain;">
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;">Data Privacy</h3>
+        <a href="/research/#privacy">
+          <img src="/research/privacy.png" alt="Data Privacy" class="research-img">
+        </a>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#privacy" style="text-decoration: none; color: inherit;">Data Privacy</a></h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">데이터 프라이버시를 보존하면서도 유의미한 통계적 추론을 수행하는 기법 개발</p>
         </div>
         
