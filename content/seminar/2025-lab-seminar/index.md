@@ -1,11 +1,11 @@
 ---
 title: 2025 Lab Seminar
-date: 2025-12-18
 type: book
 share: false
 profile: false
 authors: []
 pager: false
+reading_time: false  # 1 min read 강제 종료
 ---
 
 <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
@@ -15,8 +15,8 @@ pager: false
 </div>
 
 <style>
-/* 1. 불필요한 메타데이터(읽는 시간 등) 및 하단 좌우 이동 버튼 숨기기 */
-.article-metadata, .page-metadata, .article-pager, .docs-nav, .nav-previous, .nav-next { display: none !important; }
+/* 1. 1 min read, Last updated, 하단 이동 버튼 등 테마 기본 설정 완벽 삭제 */
+.article-metadata, .page-metadata, .reading-time, .article-reading-time, .last-updated, .article-last-updated, .page-footer, .article-pager, .docs-nav, .nav-previous, .nav-next { display: none !important; }
 
 /* 2. 표 레이아웃 고정 및 디자인 */
 .seminar-table { width: 100% !important; border-collapse: collapse !important; margin-top: 10px; font-size: 1.05rem; table-layout: fixed; }
