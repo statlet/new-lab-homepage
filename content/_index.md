@@ -74,4 +74,31 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['4
+        padding: ['40px', '5%', '60px', '5%']
+
+  # 4. 연락처 (하이퍼링크 제거, 동일한 밑줄 디자인으로 통일감 부여)
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Contact Us</h2>
+        <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
+        <div style="display: flex; flex-direction: column; gap: 30px; color: #374151;">
+        <div>
+        <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">정성규 (Sungkyu Jung) <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Director</span></h3>
+        <p style="margin: 0; font-size: 1.05rem;">Email: sungkyu@snu.ac.kr</p>
+        </div>
+        <div>
+        <h3 style="margin: 0 0 5px 0; font-size: 1.25rem; color: #112240;">김규원 <span style="font-size: 1rem; color: #6b7280; font-weight: normal; margin-left: 5px;">| Lab Manager</span></h3>
+        <p style="margin: 0; font-size: 1.05rem;">Email: kwkim1224@snu.ac.kr</p>
+        </div>
+        </div>
+        </div>
+    design:
+      background:
+        color: '#f8fafc' 
+      columns: '1'
+      spacing:
+        padding: ['60px', '5%', '80px', '5%']
+---
