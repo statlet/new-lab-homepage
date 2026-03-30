@@ -10,7 +10,7 @@ sections:
       text: |
         <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
         <h1 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Statistical Learning Theory Lab</h1>
-        <div style="font-size: 1.1rem; line-height: 1.8;">
+        <div style="font-size: 1.1rem; line-height: 1.8; color: white;">
         <p><strong>서울대학교 통계학과 통계적 학습이론 연구실에 오신 것을 환영합니다.</strong></p>
         <p>우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 High-dimension low-sample size (HDLSS) problems, geometrical data, non-euclidean type data 들을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.</p>
         </div>
@@ -18,7 +18,6 @@ sections:
     design:
       background:
         color: '#112240'
-        text_color_light: true
       columns: '1'
       spacing:
         padding: ['100px', '5%', '100px', '5%']
@@ -54,7 +53,7 @@ sections:
       spacing:
         padding: ['80px', '5%', '60px', '5%']
 
-  # 3. 최근 뉴스 
+  # 3. 최근 뉴스
   - block: markdown
     content:
       title: ''
@@ -76,7 +75,7 @@ sections:
       spacing:
         padding: ['40px', '5%', '60px', '5%']
 
-  # 4. 연락처 
+  # 4. 연락처
   - block: markdown
     content:
       title: ''
