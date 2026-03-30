@@ -10,7 +10,7 @@ sections:
       text: |
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left; padding-bottom: 20px; border-bottom: 4px solid #112240;">
         <h1 style="margin: 0; font-size: 3rem; color: #112240; font-weight: 800; letter-spacing: -1px;">Seminar</h1>
-        <p style="margin: 10px 0 0 0; font-size: 1.1rem; color: #6b7280;">정기 세미나 및 스터디 발표 자료</p>
+        <p style="margin: 10px 0 0 0; font-size: 1.1rem; color: #6b7280;">Last updated: March 30, 2026</p>
         </div>
     design:
       columns: '1'
