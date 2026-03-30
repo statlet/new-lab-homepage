@@ -5,40 +5,50 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 'Highlights'
+      title: ''
       text: |
-        ##### Last updated: March 8, 2026
+        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Highlights</h2>
+        <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
+        <h5 style="margin: 0; font-size: 1.1rem; color: #4b5563;">Last updated: March 8, 2026</h5>
+        </div>
     design:
       columns: '1'
-      css_class: 'wide-board'  # ⚠️ 핵심: custom.css가 알아볼 수 있도록 이름표 달기
       spacing:
-        padding: ['40px', '5%', '20px', '5%']
+        padding: ['80px', '5%', '20px', '5%']
 
   - block: markdown
     content:
-      title: 'Accepted for Publication'
+      title: ''
       text: |
-        1. **Sujin Lee** and **Sungkyu Jung** (2025+). “Debiased Group Lasso for Multiple Compositional Data,” accepted for publication in *Annals of the Institute of Statistical Mathematics*.
-        
-        2. **Minwoo Kim**, Sangil Han, Jeongyoun Ahn and **Sungkyu Jung** (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in *Journal of Computational and Graphical Statistics*.
+        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Accepted for Publication</h2>
+        <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
+        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <p style="margin-bottom: 15px;">1. **Sujin Lee** and **Sungkyu Jung** (2025+). “Debiased Group Lasso for Multiple Compositional Data,” accepted for publication in *Annals of the Institute of Statistical Mathematics*.</p>
+        <p style="margin-bottom: 0;">2. **Minwoo Kim**, Sangil Han, Jeongyoun Ahn and **Sungkyu Jung** (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in *Journal of Computational and Graphical Statistics*.</p>
+        </div>
+        </div>
     design:
       columns: '1'
-      css_class: 'wide-board'  # ⚠️ 여기도 이름표 달기
       spacing:
-        padding: ['20px', '5%', '20px', '5%']
+        padding: ['30px', '5%', '20px', '5%']
 
   - block: markdown
     content:
-      title: 'Published Work'
+      title: ''
       text: |
-        1. Dongsun Yoon and **Sungkyu Jung** (2025). “Adaptive Reference-Guided Estimation of Principal Component Subspace in High Dimensions,” *Stat* 14:e70081.
-        
-        2. Sangil Han, Kyoowon Kim and **Sungkyu Jung** (2025). “Subspace Recovery in Winsorized PCA: Insights into Accuracy and Robustness,” *Proceedings of AISTATS 2025*, PMLR 258:3061-3069.
-        
-        3. Donghyeok Jo and **Sungkyu Jung** (2025). “Inference on the shape of densities on Riemannian manifolds via SiZer”, *Journal of Korean Statistical Society*, 54, 442-477.
+        <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Published Work</h2>
+        <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
+        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <p style="margin-bottom: 15px;">1. Dongsun Yoon and **Sungkyu Jung** (2025). “Adaptive Reference-Guided Estimation of Principal Component Subspace in High Dimensions,” *Stat* 14:e70081.</p>
+        <p style="margin-bottom: 15px;">2. Sangil Han, Kyoowon Kim and **Sungkyu Jung** (2025). “Subspace Recovery in Winsorized PCA: Insights into Accuracy and Robustness,” *Proceedings of AISTATS 2025*, PMLR 258:3061-3069.</p>
+        <p style="margin-bottom: 0;">3. Donghyeok Jo and **Sungkyu Jung** (2025). “Inference on the shape of densities on Riemannian manifolds via SiZer”, *Journal of Korean Statistical Society*, 54, 442-477.</p>
+        </div>
+        </div>
     design:
       columns: '1'
-      css_class: 'wide-board'  # ⚠️ 여기도 이름표 달기
       spacing:
-        padding: ['20px', '5%', '40px', '5%']
+        padding: ['30px', '5%', '80px', '5%']
 ---
