@@ -51,7 +51,7 @@ sections:
         <a href="/research/#non-euclidean">
           <img src="/research/non_euclidean.png" alt="Non-Euclidean" class="research-img">
         </a>
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-euclidean data</a></h3>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-Euclidean data</a></h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
         </div>
         
