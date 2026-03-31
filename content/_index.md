@@ -12,7 +12,7 @@ sections:
         <h1 style="color: white; font-size: 2.5rem; margin-bottom: 20px;">Statistical Learning Theory Lab</h1>
         <div style="font-size: 1.1rem; line-height: 1.8; color: white;">
         <p><strong style="color: white;">서울대학교 통계학과 통계적 학습이론 연구실에 오신 것을 환영합니다.</strong></p>
-        <p>우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 High-Dimension Low-Sample-Size (HDLSS) problems, Non-Euclidean Data, Data Privacy 등을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.</p>
+        <p>우리 연구실의 주요 연구 내용은 비정형 데이터 분석(non-standard data analysis)입니다. 구체적으로는 HDLSS(High-Dimension, Low-Sample-Size) problem, non-Euclidean data, data privacy 등을 다루고 있으며, 이를 대상으로 PCA, classification, multisource data integration 등의 연구를 진행하고 있습니다.</p>
         </div>
         </div>
     design:
@@ -51,7 +51,7 @@ sections:
         <a href="/research/#non-euclidean">
           <img src="/research/non_euclidean.png" alt="Non-Euclidean" class="research-img">
         </a>
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-Euclidean data</a></h3>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-Euclidean Data</a></h3>
         <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
         </div>
         
