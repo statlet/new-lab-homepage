@@ -17,19 +17,26 @@ section.vw55block div.flex {
 }
 
 /* ------------------------------------------------ */
-/* 4. 다크모드 텍스트, 제목, 링크 색상 강력하게 덮어쓰기 */
-/* (오직 색상(color)만 건드리므로 간격에 영향을 주지 않습니다) */
+/* 4. 다크모드 글자색 보정 (스마트 버전)            */
 /* ------------------------------------------------ */
-html.dark body, html[data-theme="dark"] body,
-html.dark p, html[data-theme="dark"] p,
-html.dark span, html[data-theme="dark"] span,
-html.dark .text-muted, html[data-theme="dark"] .text-muted {
-  color: #e0e0e0 !important;
+
+/* Research(Featurette), News 등 일반 본문/리스트 영역 글자는 하얗게 */
+html.dark .featurette *,
+html.dark .article-style *,
+html.dark .media-body *,
+html.dark .stream-item * {
+    color: #e0e0e0 !important;
 }
 
-html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
-html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
-html.dark a, html[data-theme="dark"] a,
-html.dark .section-heading, html[data-theme="dark"] .section-heading {
-  color: #ffffff !important;
+/* 주요 제목들은 완전한 흰색으로 더욱 선명하게 */
+html.dark .featurette h3,
+html.dark .article-title a {
+    color: #ffffff !important;
+}
+
+/* [핵심] Contact 등 원래 배경이 밝은 영역은 글씨를 다시 어둡게 원상복구! */
+html.dark .wg-contact *,
+html.dark #contact *,
+html.dark section.bg-white * {
+    color: #333333 !important;
 }
