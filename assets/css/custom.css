@@ -1,14 +1,14 @@
-/* 1. 45vw 상자 정의 (원본 유지) */
+/* 1. 45vw 상자 정의 */
 section.vw45block div.flex { 
     max-width: 45vw !important; 
 }
 
-/* 2. 55vw 상자 정의 (원본 유지) */
+/* 2. 55vw 상자 정의 */
 section.vw55block div.flex { 
     max-width: 55vw !important; 
 }
 
-/* 3. 안쪽 텍스트 상자 고집 꺾기 (원본 유지) */
+/* 3. 안쪽 텍스트 상자 고집 꺾기 */
 .prose, 
 .max-w-prose,
 .max-w-screen-md,
@@ -16,22 +16,4 @@ section.vw55block div.flex {
     max-width: 100% !important; 
 }
 
-/* ------------------------------------------------ */
-/* 4. 다크모드 글자색 보정 (이름표 저격 버전)         */
-/* ------------------------------------------------ */
-
-/* 방금 이름표를 붙인 Research와 News 영역만 다크모드에서 글자를 하얗게 덮어씀 */
-html.dark #research-section *,
-html[data-theme="dark"] #research-section *,
-html.dark #news-section *,
-html[data-theme="dark"] #news-section * {
-    color: #e0e0e0 !important;
-}
-
-/* 해당 영역의 주요 제목과 링크는 완전한 흰색으로 더욱 선명하게 */
-html.dark #research-section h2, html.dark #research-section h3, html.dark #research-section a,
-html[data-theme="dark"] #research-section h2, html[data-theme="dark"] #research-section h3, html[data-theme="dark"] #research-section a,
-html.dark #news-section h2, html.dark #news-section h3, html.dark #news-section a,
-html[data-theme="dark"] #news-section h2, html[data-theme="dark"] #news-section h3, html[data-theme="dark"] #news-section a {
-    color: #ffffff !important;
-}
+/* 다크모드 강제 덮어쓰기 코드는 모두 삭제되었습니다! */
