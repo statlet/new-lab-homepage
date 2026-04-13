@@ -28,11 +28,10 @@ sections:
       title: ''
       text: |
         <div id="research-section" style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Research Interests</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         
         <style>
-        /* 👇 width: 100% 를 추가하여 모든 사진이 가로 공간을 꽉 채우도록 수정했습니다 */
         .research-img { width: 100%; height: 200px; margin-bottom: 20px; object-fit: contain; transition: transform 0.2s ease; display: block; }
         .research-img:hover { transform: translateY(-5px); }
         </style>
@@ -43,24 +42,24 @@ sections:
         <a href="/research/#hdlss">
           <img src="/research/hdlss.png" alt="High-dimension low-sample-size" class="research-img">
         </a>
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#hdlss" style="text-decoration: none; color: inherit;">HDLSS Problem</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 기하적, 통계적 현상에 대한 연구</p>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0;"><a href="/research/#hdlss" style="text-decoration: none; color: inherit;">HDLSS Problem</a></h3>
+        <p style="font-size: 0.95rem; line-height: 1.6;">고차원 저표본(High-Dimension, Low Sample Size) 상황에서 발생하는 기하적, 통계적 현상에 대한 연구</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
         <a href="/research/#non-euclidean">
           <img src="/research/non_euclidean.png" alt="Non-Euclidean" class="research-img">
         </a>
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-Euclidean Data</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0;"><a href="/research/#non-euclidean" style="text-decoration: none; color: inherit;">Non-Euclidean Data</a></h3>
+        <p style="font-size: 0.95rem; line-height: 1.6;">다양체, 트리, 그래프 등 비유클리드 공간에 존재하는 데이터의 통계적 분석</p>
         </div>
         
         <div style="flex: 1; min-width: 280px; max-width: 310px;">
         <a href="/research/#privacy">
           <img src="/research/privacy.png" alt="Data Privacy" class="research-img">
         </a>
-        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0; color: #1e3a8a;"><a href="/research/#privacy" style="text-decoration: none; color: inherit;">Data Privacy</a></h3>
-        <p style="font-size: 0.95rem; color: #4b5563; line-height: 1.6;">재현 자료(Synthetic Data)와 차등정보보호(Differential Privacy)를 기반으로 한 Data Privacy 연구</p>
+        <h3 style="font-size: 1.25rem; margin: 0 0 10px 0;"><a href="/research/#privacy" style="text-decoration: none; color: inherit;">Data Privacy</a></h3>
+        <p style="font-size: 0.95rem; line-height: 1.6;">재현 자료(Synthetic Data)와 차등정보보호(Differential Privacy)를 기반으로 한 Data Privacy 연구</p>
         </div>
         
         </div>
@@ -76,15 +75,15 @@ sections:
       title: ''
       text: |
         <div id="news-section" style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Recent News</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Recent News</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
-        <div style="line-height: 2; font-size: 1.05rem; color: #374151;">
+        <div style="line-height: 2; font-size: 1.05rem;">
         <div style="margin-bottom: 10px;"><strong>[2026-03-29]</strong> 통계적 학습이론 연구실 홈페이지를 새롭게 단장했습니다.</div>
         <div style="margin-bottom: 10px;"><strong>[2026-03-26]</strong> 딥러닝을 주제로 한 연구실 세미나가 시작되었습니다.</div>
         <div style="margin-bottom: 10px;"><strong>[2026-02-25]</strong> 김용재 학생이 박사과정을, 김우열, 유지현 학생이 석사과정을 졸업하였습니다.</div>
         </div>
         <div style="margin-top: 25px;">
-        <a href="/news/" style="text-decoration: none; color: #1e3a8a; font-weight: bold;">➔ View all news</a>
+        <a href="/news/" style="text-decoration: none; font-weight: bold;">➔ View all news</a>
         </div>
         </div>
     design:
@@ -92,7 +91,7 @@ sections:
       spacing:
         padding: ['40px', '5%', '60px', '5%']
 
-  # 4. 연락처
+  # 4. 연락처 (이 부분은 배경이 고정되어 있으므로 색상 하드코딩 유지)
   - block: markdown
     content:
       title: ''
