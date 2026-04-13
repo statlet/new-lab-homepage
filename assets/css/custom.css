@@ -17,30 +17,21 @@ section.vw55block div.flex {
 }
 
 /* ------------------------------------------------ */
-/* 4. 다크모드 글자색 보정 (최종 병기)                */
+/* 4. 다크모드 글자색 보정 (이름표 저격 버전)         */
 /* ------------------------------------------------ */
 
-/* (1) 다크모드에서는 예외 없이 모든 글자, 제목, 링크를 하얗게! (이전 성공 코드) */
-html.dark body, html[data-theme="dark"] body,
-html.dark p, html[data-theme="dark"] p,
-html.dark span, html[data-theme="dark"] span,
-html.dark li, html[data-theme="dark"] li,
-html.dark .text-muted, html[data-theme="dark"] .text-muted {
-  color: #e0e0e0 !important;
+/* 방금 이름표를 붙인 Research와 News 영역만 다크모드에서 글자를 하얗게 덮어씀 */
+html.dark #research-section *,
+html[data-theme="dark"] #research-section *,
+html.dark #news-section *,
+html[data-theme="dark"] #news-section * {
+    color: #e0e0e0 !important;
 }
 
-html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
-html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
-html.dark a, html[data-theme="dark"] a,
-html.dark .section-heading, html[data-theme="dark"] .section-heading {
-  color: #ffffff !important;
-}
-
-/* (2) 단, 하얀 배경인 Contact Us 영역만 강력하게 어두운 색으로 보호! */
-html.dark .wg-contact *,
-html[data-theme="dark"] .wg-contact *,
-html.dark #contact *,
-html[data-theme="dark"] #contact *,
-html.dark section.bg-white * {
-  color: #333333 !important;
+/* 해당 영역의 주요 제목과 링크는 완전한 흰색으로 더욱 선명하게 */
+html.dark #research-section h2, html.dark #research-section h3, html.dark #research-section a,
+html[data-theme="dark"] #research-section h2, html[data-theme="dark"] #research-section h3, html[data-theme="dark"] #research-section a,
+html.dark #news-section h2, html.dark #news-section h3, html.dark #news-section a,
+html[data-theme="dark"] #news-section h2, html[data-theme="dark"] #news-section h3, html[data-theme="dark"] #news-section a {
+    color: #ffffff !important;
 }
