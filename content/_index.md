@@ -27,7 +27,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
+        <div id="research-section" style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Research Interests</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 40px; width: 100%;">
         
@@ -75,7 +75,7 @@ sections:
     content:
       title: ''
       text: |
-        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
+        <div id="news-section" style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
         <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Recent News</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 2; font-size: 1.05rem; color: #374151;">
