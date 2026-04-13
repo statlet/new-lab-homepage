@@ -1,17 +1,14 @@
-/* PC 화면(너비 768px 이상)에서만 45vw / 55vw 비율 적용 */
-@media (min-width: 768px) {
-    /* 1. 45vw 상자 정의 */
-    section.vw45block div.flex { 
-        max-width: 45vw !important; 
-    }
-
-    /* 2. 55vw 상자 정의 */
-    section.vw55block div.flex { 
-        max-width: 55vw !important; 
-    }
+/* 1. 45vw 상자 정의 (원본 유지) */
+section.vw45block div.flex { 
+    max-width: 45vw !important; 
 }
 
-/* 3. 안쪽 텍스트 상자(마크다운 영역) 고집 꺾기 - 바깥 상자에 100% 맞추기 (그대로 유지) */
+/* 2. 55vw 상자 정의 (원본 유지) */
+section.vw55block div.flex { 
+    max-width: 55vw !important; 
+}
+
+/* 3. 안쪽 텍스트 상자 고집 꺾기 (원본 유지) */
 .prose, 
 .max-w-prose,
 .max-w-screen-md,
@@ -19,13 +16,16 @@
     max-width: 100% !important; 
 }
 
-/* 4. 다크모드 글자색 강제 밝게 설정 (그대로 유지) */
+/* ------------------------------------------------ */
+/* 4. 오직 다크모드 글자색만 변경 (간격 영향 X)     */
+/* ------------------------------------------------ */
 html.dark body,
 html[data-theme="dark"] body {
-  color: #e0e0e0 !important;
+  color: #e0e0e0;
 }
 
 html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
 html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6 {
-  color: #ffffff !important;
+  color: #ffffff;
 }
+
