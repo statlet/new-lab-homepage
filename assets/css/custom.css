@@ -17,15 +17,19 @@ section.vw55block div.flex {
 }
 
 /* ------------------------------------------------ */
-/* 4. 오직 다크모드 글자색만 변경 (간격 영향 X)     */
+/* 4. 다크모드 텍스트, 제목, 링크 색상 강력하게 덮어쓰기 */
+/* (오직 색상(color)만 건드리므로 간격에 영향을 주지 않습니다) */
 /* ------------------------------------------------ */
-html.dark body,
-html[data-theme="dark"] body {
-  color: #e0e0e0;
+html.dark body, html[data-theme="dark"] body,
+html.dark p, html[data-theme="dark"] p,
+html.dark span, html[data-theme="dark"] span,
+html.dark .text-muted, html[data-theme="dark"] .text-muted {
+  color: #e0e0e0 !important;
 }
 
 html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
-html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6 {
-  color: #ffffff;
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3, html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
+html.dark a, html[data-theme="dark"] a,
+html.dark .section-heading, html[data-theme="dark"] .section-heading {
+  color: #ffffff !important;
 }
-
