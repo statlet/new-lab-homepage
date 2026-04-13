@@ -8,9 +8,9 @@ sections:
     content:
       title: ''
       text: |
-        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left; padding-bottom: 20px; border-bottom: 4px solid #112240;">
-        <h1 style="margin: 0; font-size: 3rem; color: #112240; font-weight: 800; letter-spacing: -1px;">Publications</h1>
-        <p style="margin: 10px 0 0 0; font-size: 1.1rem; color: #6b7280;">Last updated: March 8, 2026</p>
+        <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left; padding-bottom: 20px; border-bottom: 4px solid currentColor;">
+        <h1 style="margin: 0; font-size: 3rem; font-weight: 800; letter-spacing: -1px;">Publications</h1>
+        <p style="margin: 10px 0 0 0; font-size: 1.1rem; opacity: 0.8;">Last updated: March 8, 2026</p>
         </div>
     design:
       columns: '1'
@@ -23,9 +23,9 @@ sections:
       title: ''
       text: |
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Accepted for publication</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Accepted for publication</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
-        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <div style="line-height: 1.8; font-size: 1.05rem;">
         
         <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">1. Sujin Lee and Sungkyu Jung (2025+). “Debiased Group Lasso for Multiple Compositional Data,” accepted for publication in Annals of the Institute of Statistical Mathematics.</p>
         <p style="margin-bottom: 0; padding-left: 25px; text-indent: -25px;">2. Minwoo Kim, Sangil Han, Jeongyoun Ahn and Sungkyu Jung (2025+). “Variable selection and basis learning for ordinal classification,” accepted for publication in Journal of Computational and Graphical Statistics.</p>
@@ -43,9 +43,9 @@ sections:
       title: ''
       text: |
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Published work</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Published work</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
-        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <div style="line-height: 1.8; font-size: 1.05rem;">
         
         <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">1. Dongsun Yoon and Sungkyu Jung (2025). “Adaptive Reference-Guided Estimation of Principal Component Subspace in High Dimensions,” Stat 14:e70081.</p>
         <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">2. Sangil Han, Kyoowon Kim and Sungkyu Jung (2025). “Subspace Recovery in Winsorized PCA: Insights into Accuracy and Robustness,” Proceedings of The 28th Int. Conf. Artif. Intell. Statist. (AISTATS 2025), PMLR 258:3061-3069.</p>
@@ -78,9 +78,9 @@ sections:
       title: ''
       text: |
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Preprints</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Preprints</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
-        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <div style="line-height: 1.8; font-size: 1.05rem;">
         
         <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">1. Kyungjin Shin, Hyunsu Yu, Yongjae Kim, Giheon Seong, Changwon Yoon, Jeongyoun Ahn, Sungkyu Jung, and Cheolwoo Park. “A Comprehensive Analysis of Utility and Disclosure Risk Metrics for Synthetic Data,” manuscript.</p>
         <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">2. Minwoo Kim, Junyong Park and Sungkyu Jung. “Enhanced Differentially Private Mechanisms via Empirical Bayes,” manuscript.</p>
@@ -104,13 +104,13 @@ sections:
       title: ''
       text: |
         <div style="width: 1000px; max-width: 100%; margin: 0 auto; text-align: left;">
-        <h2 style="margin: 0 0 10px 0; font-size: 2rem; color: #112240;">Softwares</h2>
+        <h2 style="margin: 0 0 10px 0; font-size: 2rem;">Softwares</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
-        <div style="line-height: 1.8; font-size: 1.05rem; color: #374151;">
+        <div style="line-height: 1.8; font-size: 1.05rem;">
         
-        <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">1. R package <a href="https://CRAN.R-project.org/package=ClusTorus" target="_blank" style="color: #1e3a8a; text-decoration: underline;">"ClusTorus"</a></p>
-        <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">2. Recently developed software can be found at <a href="https://github.com/sungkyujung" target="_blank" style="color: #1e3a8a; text-decoration: underline;">GitHub repo</a></p>
-        <p style="margin-bottom: 0; padding-left: 25px; text-indent: -25px;">3. Old pieces of software can be found at <a href="https://www.stat.pitt.edu/sungkyu/oldSoftwarePage.html" target="_blank" style="color: #1e3a8a; text-decoration: underline;">here</a></p>
+        <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">1. R package <a href="https://CRAN.R-project.org/package=ClusTorus" target="_blank" style="text-decoration: underline;">"ClusTorus"</a></p>
+        <p style="margin-bottom: 15px; padding-left: 25px; text-indent: -25px;">2. Recently developed software can be found at <a href="https://github.com/sungkyujung" target="_blank" style="text-decoration: underline;">GitHub repo</a></p>
+        <p style="margin-bottom: 0; padding-left: 25px; text-indent: -25px;">3. Old pieces of software can be found at <a href="https://www.stat.pitt.edu/sungkyu/oldSoftwarePage.html" target="_blank" style="text-decoration: underline;">here</a></p>
         
         </div>
         </div>
