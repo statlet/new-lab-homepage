@@ -8,7 +8,7 @@ sections:
       title: ''
       text: |
         <div style="max-width: 1000px; width: 100%; margin: 0 auto; text-align: left;">
-        
+    
         <h2 style="margin: 0 0 10px 0; font-size: 2rem;">2026</h2>
         <hr style="border: 0; border-bottom: 2px solid #e5e7eb; margin-bottom: 30px; width: 100%;">
         <div style="line-height: 2; font-size: 1.05rem; margin-bottom: 50px;">
